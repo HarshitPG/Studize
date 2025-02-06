@@ -58,7 +58,7 @@ const Navbar = () => {
       </ul>
       <button
         onClick={toggleMenu}
-        className="space-y-1 group overflow-x-hidden md:hidden"
+        className="z-50 space-y-1 group overflow-x-hidden md:hidden"
       >
         <div className="w-6 h-1 bg-black"></div>
         <div className="w-6 h-1 bg-black"></div>
