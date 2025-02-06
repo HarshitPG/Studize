@@ -65,8 +65,8 @@ const Navbar = () => {
         <div className="w-6 h-1 bg-black"></div>
       </button>
       <ul
-        className={`fixed top-0 right-0 h-screen bg-[#2c4cf0] pb-4 w-screen transform z-0 ${
-          menuOpen ? "translate-x-0" : "translate-x-full"
+        className={`fixed top-0 right-0 h-screen bg-[#2c4cf0] pb-4 w-screen transform ${
+          menuOpen ? "translate-x-0  z-0 " : "translate-x-full"
         } z-10 transition-transform duration-300 ease-in-out flex flex-col space-y-3 justify-start`}
       >
         <button onClick={toggleMenu} className="px-10 py-10 relative ml-auto">
