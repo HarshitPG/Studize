@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* @font-face {
+  font-family: "Supply-Bold";
+  src: url("./fonts/Supply-Bold.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "Supply-UltraLight";
+  src: url("./fonts/Supply-UltraLight.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "Supply-Regular";
+  src: url("./fonts/Supply-Regular.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "Supply-Light";
+  src: url("./fonts/Supply-Light.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "Supply-Medium";
+  src: url("./fonts/Supply-Medium.otf") format("truetype");
+} */
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.custom-bullet > li::marker {
+  color: #2c4cf0;
+}
